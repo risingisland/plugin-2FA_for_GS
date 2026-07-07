@@ -5,7 +5,7 @@ Plugin Name: 2FA for GS
 Description: Add Two-Factor Authentication (Google Authenticator, Authy or any TOTP app) to admin login page. (SQLite3 required)
 Version: 1.0
 Author: risingisland
-Author URI: https://getsimple-ce.ovh/donate
+Author URI: https://ko-fi.com/ericmontgomery
 */
 
 i18n_merge('2FAforGS') || i18n_merge('2FAforGS', 'en_US');
@@ -22,7 +22,7 @@ register_plugin(
 	'2FA for GS',
 	'1.0',
 	'risingisland',
-	'https://getsimple-ce.ovh/donate',
+	'https://ko-fi.com/ericmontgomery',
 	'Add Two-Factor Authentication (Google Authenticator, Authy or any TOTP app) to admin login page. (SQLite3 required)',
 	'settings',
 	'gs2fa_admin_page'

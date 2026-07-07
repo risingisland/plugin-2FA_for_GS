@@ -185,7 +185,7 @@ extension=sqlite3
 
 ## ❤️ Support / Donate
 
-https://getsimple-ce.ovh/donate  
+https://ko-fi.com/ericmontgomery
 
 ---
 
