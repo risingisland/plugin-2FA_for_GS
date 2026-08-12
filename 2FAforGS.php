@@ -28,7 +28,7 @@ register_plugin(
 	'gs2fa_admin_page'
 );
 
-add_action('settings-sidebar', 'createSideMenu', array(GS2FA_SLUG, i18n_r('2FAforGS/lang_Menu_Title') . ' <svg style="vertical-align:middle;" width="20" height="20" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#4a7cf7"/><path d="M16 7a5 5 0 0 0-5 5v2H9a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-2v-2a5 5 0 0 0-5-5zm0 2a3 3 0 0 1 3 3v2h-6v-2a3 3 0 0 1 3-3zm0 8a2 2 0 1 1 0 4 2 2 0 0 1 0-4z" fill="#fff"/></svg>', '?id=' . GS2FA_SLUG));
+add_action('settings-sidebar', 'createSideMenu', array(GS2FA_SLUG, i18n_r('2FAforGS/lang_Menu_Title') . ' <svg style="vertical-align:middle;" width="20" height="20" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#4a7cf7"/><path d="M16 7a5 5 0 0 0-5 5v2H9a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-2v-2a5 5 0 0 0-5-5zm0 2a3 3 0 0 1 3 3v2h-6v-2a3 3 0 0 1 3-3zm0 8a2 2 0 1 1 0 4 2 2 0 0 1 0-4z" fill="#fff"/></svg>'));
 add_action('admin-pre-header', 'gs2fa_guard');
 
 gs2fa_init_db();
